@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sparkle</title>
+    <!-- typed js -->
+    <!-- flicity library -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <!-- AOS library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- google fonts library -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&family=Raleway:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome library -->
+    <link rel="stylesheet" href="css-folder/all.min.css" />
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="css-folder/bootstrap.min.css" />
+    <!-- css main file -->
+    <link rel="stylesheet" href="css-folder/style.css" />
+  </head>
+  <body>
+    <!-- start navbar -->
+    <nav class="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="images/logo-shape.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main"
+          aria-controls="main"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <!-- <i class="fa-solid fa-bars-staggered"></i> -->
+          <div class="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </button>
+        <div class="collapse navbar-collapse" id="main">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light"
+                aria-current="page"
+                href="#services"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-light"
+                aria-current="page"
+                href="#portfolio"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" aria-current="page" href="#team"
+                >Team</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-light"
+                aria-current="page"
+                href="#about-us"
+                >About us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+    <!-- start landing -->
+    <div
+      class="landing text-center d-flex align-items-center justify-content-center"
+    >
+      <div class="text-box">
+        <h1 class="heading-1 fw-bold text-light"></h1>
+        <p class="text-light mb-4">
+          Hello This is Onepage Multipurpose Template.
+        </p>
+        <a href="#" class="btn special-btn rounded-0 ps-4 pe-4 pt-2 pb-2"
+          >Learn More</a
+        >
+      </div>
+    </div>
+    <!-- end landing -->
+    <!-- start info -->
+    <div
+      class="info text-center d-flex justify-content-center align-items-center pt-5 pb-5"
+    >
+      <div class="box">
+        <img class="mb-5" src="images/mountain.png" alt="" />
+        <p class="lh-lg text-black-50 p-3">
+          Donec rutrum congue leo eget malesuada. Curabitur non nulla sit amet
+          nisl tempus convallis quis ac lectus. Proin eget tortor risus. Mauris
+          blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur non
+          nulla sit amet nisl tempus.
+        </p>
+      </div>
+    </div>
+    <!-- end info -->
+    <!-- start our services -->
+    <div class="services pt-5 pb-5" id="services">
+      <div class="container">
+        <div
+          class="main-title text-center mb-4"
+          data-aos="zoom-in"
+          data-aos-once="true"
+        >
+          <img class="mb-3" src="images/axes.png" alt="" />
+          <h2 class="text-uppercase fw-light mb-4">Our Services</h2>
+          <p class="text-black-50 m-auto">
+            Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+            dui. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+            Donec sollicitudin molestie malesuada
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="box" data-aos="fade-up" data-aos-once="true">
+              <div class="card border-0 p-3 text-center mb-3">
+                <img class="m-auto" src="images/services-1.png" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title lh-base">
+                    Graphic <br />
+                    Design
+                  </h5>
+                  <p class="card-text lh-lg text-black-50">
+                    Vestibulum ac diam sit amet quam vehicula elementum sed sit
+                    amet dui. Quisque velit nisi, pretium ut lacinia in,
+                    elementum id enim. Donec sollicitudin
+                  </p>
+                </div>
+              </div>
+              <div class="card border-0 p-3">
+                <div class="prog">
+                  <span class="fw-bold">Ps</span>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="height: 4px"
+                  >
+                    <div
+                      class="progress-bar"
+                      style="width: 0%"
+                      data-width="90%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="prog">
+                  <span class="fw-bold">Ai</span>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="height: 4px"
+                  >
+                    <div
+                      class="progress-bar"
+                      style="width: 0%"
+                      data-width="90%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="prog">
+                  <span class="fw-bold">ID</span>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="height: 4px"
+                  >
+                    <div
+                      class="progress-bar"
+                      style="width: 0%"
+                      data-width="90%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="box" data-aos="fade-up" data-aos-once="true">
+              <div class="card border-0 p-3 text-center mb-3">
+                <img class="m-auto" src="images/services-1.png" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title lh-base">
+                    Web <br />
+                    Design
+                  </h5>
+                  <p class="card-text lh-lg text-black-50">
+                    Vestibulum ac diam sit amet quam vehicula elementum sed sit
+                    amet dui. Quisque velit nisi, pretium ut lacinia in,
+                    elementum id enim. Donec sollicitudin
+                  </p>
+                </div>
+              </div>
+              <div class="card border-0 p-3">
+                <div class="prog">
+                  <span class="fw-bold">Ps</span>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="height: 4px"
+                  >
+                    <div
+                      class="progress-bar"
+                      style="width: 0%"
+                      data-width="90%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="prog">
+                  <span class="fw-bold">Ai</span>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="height: 4px"
+                  >
+                    <div
+                      class="progress-bar"
+                      style="width: 0%"
+                      data-width="90%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="prog">
+                  <span class="fw-bold">ID</span>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="height: 4px"
+                  >
+                    <div
+                      class="progress-bar"
+                      style="width: 0%"
+                      data-width="90%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="box" data-aos="fade-up" data-aos-once="true">
+              <div class="card border-0 p-3 text-center mb-3">
+                <img class="m-auto" src="images/services-1.png" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title lh-base">
+                    Web <br />
+                    Development
+                  </h5>
+                  <p class="card-text lh-lg text-black-50">
+                    Vestibulum ac diam sit amet quam vehicula elementum sed sit
+                    amet dui. Quisque velit nisi, pretium ut lacinia in,
+                    elementum id enim. Donec sollicitudin
+                  </p>
+                </div>
+              </div>
+              <div class="card border-0 p-3">
+                <div class="prog">
+                  <span class="fw-bold">Ps</span>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="height: 4px"
+                  >
+                    <div
+                      class="progress-bar"
+                      style="width: 0%"
+                      data-width="90%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="prog">
+                  <span class="fw-bold">Ai</span>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="height: 4px"
+                  >
+                    <div
+                      class="progress-bar"
+                      style="width: 0%"
+                      data-width="90%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="prog">
+                  <span class="fw-bold">ID</span>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="height: 4px"
+                  >
+                    <div
+                      class="progress-bar"
+                      style="width: 0%"
+                      data-width="90%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="box" data-aos="fade-up" data-aos-once="true">
+              <div class="card border-0 p-3 text-center mb-3">
+                <img class="m-auto" src="images/services-1.png" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title lh-base">
+                    App <br />
+                    Development
+                  </h5>
+                  <p class="card-text lh-lg text-black-50">
+                    Vestibulum ac diam sit amet quam vehicula elementum sed sit
+                    amet dui. Quisque velit nisi, pretium ut lacinia in,
+                    elementum id enim. Donec sollicitudin
+                  </p>
+                </div>
+              </div>
+              <div class="card border-0 p-3">
+                <div class="prog">
+                  <span class="fw-bold">Ps</span>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="height: 4px"
+                  >
+                    <div
+                      class="progress-bar"
+                      style="width: 0%"
+                      data-width="90%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="prog">
+                  <span class="fw-bold">Ai</span>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="height: 4px"
+                  >
+                    <div
+                      class="progress-bar"
+                      style="width: 0%"
+                      data-width="90%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="prog">
+                  <span class="fw-bold">ID</span>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="height: 4px"
+                  >
+                    <div
+                      class="progress-bar"
+                      style="width: 0%"
+                      data-width="90%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end our services -->
+    <!-- start stats -->
+    <div class="stats pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-lg-3 col-md-6 mb-3"
+            data-aos="fade-up"
+            data-aos-once="true"
+          >
+            <div class="bg-white p-3 text-center fw-bold">
+              <span>694</span>
+              <div>Completed Designs</div>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-6 mb-3"
+            data-aos="fade-up"
+            data-aos-once="true"
+          >
+            <div class="bg-white p-3 text-center fw-bold">
+              <span>324</span>
+              <div>Pages Created</div>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-6 mb-3"
+            data-aos="fade-up"
+            data-aos-once="true"
+          >
+            <div class="bg-white p-3 text-center fw-bold">
+              <span>134</span>
+              <div>Pages Loaded</div>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-6 mb-3"
+            data-aos="fade-up"
+            data-aos-once="true"
+          >
+            <div class="bg-white p-3 text-center fw-bold">
+              <span>27</span>
+              <div>Apps Finished</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end stats -->
+    <!-- start Portfolio -->
+    <div class="portfolio pt-5 pb-5" id="portfolio">
+      <div class="container">
+        <div
+          class="main-title text-center mb-4"
+          data-aos="zoom-in"
+          data-aos-once="true"
+        >
+          <img class="mb-3" src="images/axes.png" alt="" />
+          <h2 class="text-uppercase fw-light mb-4">Our Portfolio</h2>
+          <p class="text-black-50 m-auto">
+            Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+            dui. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+            Donec sollicitudin molestie malesuada
+          </p>
+        </div>
+        <div
+          class="shuffle d-flex justify-content-center align-items-center pt-4"
+        >
+          <div class="item">
+            <span>Graphic</span>
+            <span>Web</span>
+          </div>
+          <img class="ps-3 pe-3" src="images/logo-shape-2.png" alt="" />
+          <div class="item">
+            <span>Development</span>
+            <span>Apps </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="carousel mt-5"
+        data-flickity='{"wrapAround": true, "pageDots": false}'
+        data-aos="fade-up"
+        data-aos-once="true"
+      >
+        <div class="carousel-cell">
+          <img src="images/work-01.jpg" alt="" />
+          <div class="text-box">
+            <h4>Doe Branding</h4>
+            <p>
+              Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+              dui. Quisque velit nisi, pretium ut lacinia in, elementum id
+              enim...
+            </p>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <img src="images/work-03.jpg" alt="" />
+          <div class="text-box">
+            <h4>Doe Branding</h4>
+            <p>
+              Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+              dui. Quisque velit nisi, pretium ut lacinia in, elementum id
+              enim...
+            </p>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <img src="images/work-02.jpg" alt="" />
+          <div class="text-box">
+            <h4>Doe Branding</h4>
+            <p>
+              Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+              dui. Quisque velit nisi, pretium ut lacinia in, elementum id
+              enim...
+            </p>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <img src="images/work-04.jpg" alt="" />
+          <div class="text-box">
+            <h4>Doe Branding</h4>
+            <p>
+              Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+              dui. Quisque velit nisi, pretium ut lacinia in, elementum id
+              enim...
+            </p>
+          </div>
+        </div>
+        <div class="carousel-cell">
+          <img src="images/work-05.jpg" alt="" />
+          <div class="text-box">
+            <h4>Doe Branding</h4>
+            <p>
+              Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+              dui. Quisque velit nisi, pretium ut lacinia in, elementum id
+              enim...
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-5">
+        <a href="#" class="btn special-btn rounded-0 ps-4 pe-4 pt-2 pb-2"
+          >Like What You See?</a
+        >
+      </div>
+    </div>
+    <!-- end Portfolio -->
+    <!-- start video -->
+    <div class="video">
+      <div class="continer text-center">
+        <button
+          class="play-video btn text-uppercase text-light-50 rounded-0 text-center ps-4 pe-4 pt-2 pb-2"
+        >
+          View Our Video
+        </button>
+        <div
+          class="video-container hidden w-100 h-100 position-fixed top-0 start-0"
+        >
+          <div class="close-div">
+            <i
+              class="fa-solid fa-xmark text-light fs-3 close position-absolute"
+            ></i>
+          </div>
+          <video controls>
+            <source src="images/awesome-video.mp4" />
+          </video>
+        </div>
+      </div>
+    </div>
+    <!-- end video -->
+    <!-- start team -->
+    <div class="team pt-5 pb-5" id="team">
+      <div class="container">
+        <div
+          class="main-title text-center mb-4"
+          data-aos="zoom-in"
+          data-aos-once="true"
+        >
+          <img class="mb-3" src="images/axes.png" alt="" />
+          <h2 class="text-uppercase fw-light mb-4">Our Team</h2>
+          <p class="text-black-50 m-auto">
+            Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+            dui. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+            Donec sollicitudin molestie malesuada
+          </p>
+        </div>
+        <div class="row">
+          <div
+            class="col-lg-3 col-md-6"
+            data-aos="fade-up"
+            data-aos-once="true"
+          >
+            <div class="box border">
+              <div class="img-txt position-relative">
+                <img class="img-fluid" src="images/team-1.jpg" alt="" />
+                <div
+                  class="txt-box position-absolute bottom-0 left-0 w-100 fw-bold text-center"
+                >
+                  John Doe
+                </div>
+              </div>
+              <div class="txt p-3 lh-lg text-center position-relative">
+                <img
+                  class="position-absolute opacity-25"
+                  src="images/axes.png"
+                  alt=""
+                />
+                Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+                dui. Quisque velit nisi, pretium ut lacinia in, elementum id
+                enim. Donec sollicitudin
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-6"
+            data-aos="fade-up"
+            data-aos-once="true"
+          >
+            <div class="box border">
+              <div class="img-txt position-relative">
+                <img class="img-fluid" src="images/team-2.jpg" alt="" />
+                <div
+                  class="txt-box position-absolute bottom-0 left-0 w-100 fw-bold text-center"
+                >
+                  John Doe
+                </div>
+              </div>
+              <div class="txt p-3 lh-lg text-center position-relative">
+                <img
+                  class="position-absolute opacity-25"
+                  src="images/axes.png"
+                  alt=""
+                />
+                Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+                dui. Quisque velit nisi, pretium ut lacinia in, elementum id
+                enim. Donec sollicitudin
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-6"
+            data-aos="fade-up"
+            data-aos-once="true"
+          >
+            <div class="box border">
+              <div class="img-txt position-relative">
+                <img class="img-fluid" src="images/team-3.jpg" alt="" />
+                <div
+                  class="txt-box position-absolute bottom-0 left-0 w-100 fw-bold text-center"
+                >
+                  John Doe
+                </div>
+              </div>
+              <div class="txt p-3 lh-lg text-center position-relative">
+                <img
+                  class="position-absolute opacity-25"
+                  src="images/axes.png"
+                  alt=""
+                />
+                Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+                dui. Quisque velit nisi, pretium ut lacinia in, elementum id
+                enim. Donec sollicitudin
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-6"
+            data-aos="fade-up"
+            data-aos-once="true"
+          >
+            <div class="box border">
+              <div class="img-txt position-relative">
+                <img class="img-fluid" src="images/team-3.jpg" alt="" />
+                <div
+                  class="txt-box position-absolute bottom-0 left-0 w-100 fw-bold text-center"
+                >
+                  John Doe
+                </div>
+              </div>
+              <div class="txt p-3 lh-lg text-center position-relative">
+                <img
+                  class="position-absolute opacity-25"
+                  src="images/axes.png"
+                  alt=""
+                />
+                Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+                dui. Quisque velit nisi, pretium ut lacinia in, elementum id
+                enim. Donec sollicitudin
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end team -->
+    <!-- start about us -->
+    <div class="about-us pt-5 pb-5 position-relative" id="about-us">
+      <div class="yellow-bg w-100 top-50 left-0 position-absolute z-n1"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="box">
+              <div
+                class="txt-box text-light p-5"
+                data-aos="fade-right"
+                data-aos-once="true"
+              >
+                Pellentesque in ipsum id orci porta dapibus. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit. Proin eget tortor risus.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur non nulla sit amet nisl tempus convallis quis ac
+                lectus. Vivamus magna justo, lacinia eget consectetur sed,
+                convallis at tellus. Curabitur non nulla sit amet nisl tempus
+                convallis quis ac lectus. Nulla quis lorem ut libero malesuada
+                feugiat. Pellentesque in ipsum id orci porta dapibus. Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit. Proin eget
+                tortor risus. Lorem ipsum dolor sit amet, consectetuquis ac
+                lectus. Nulla quis lorem ut libero malesuada feugiat.
+              </div>
+              <div class="quote-1 text-black-50 p-4">
+                <q class="d-block mb-3"
+                  >“Proin eget tortor risus. Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit. Curabisl tempus convallis justo,
+                  lacinia eget malesuada feugiat”</q
+                >
+                <p class="fw-bold text-black ps-4">John Doe SEO</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="box text-end">
+              <div class="quote-2 text-black-50 p-4">
+                <q class="d-block mb-3"
+                  >“Proin eget tortor risus. Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit. Curabisl tempus convallis justo,
+                  lacinia eget malesuada feugiat”</q
+                >
+                <p class="fw-bold text-black ps-4">John Doe SEO</p>
+              </div>
+              <img
+                src="images/work-7-1.jpg"
+                alt=""
+                data-aos="fade-up"
+                data-aos-once="true"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end about us -->
+    <!-- start footer -->
+    <div class="footer pt-5 pb-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div
+            class="col-lg-3 col-md-6"
+            data-aos="fade-up"
+            data-aos-once="true"
+          >
+            <div class="box text-light">
+              <a href="#"><img src="images/logo-shape.png" alt="" /></a>
+              <p class="mt-3">
+                Pellentesque in ipsum id orci porta dapibus. Vivamus magna
+                justo, lacinia eget consectetur sed, convallis at tellus.
+                Pellentesque in ipsum id orci porta dapibus.
+              </p>
+              <p class="mt-5">
+                Created by
+                <span class="text-warning">Graphberry</span>.Belgrade.Serbia
+              </p>
+              <p>&copy; 2023 - Sparkle Inc</p>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-6"
+            data-aos="fade-up"
+            data-aos-once="true"
+          >
+            <div class="box text-light">
+              <h4 class="fs-5">links</h4>
+              <ul class="links text-light list-unstyled lh-lg ms-3">
+                <li><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-6"
+            data-aos="fade-up"
+            data-aos-once="true"
+          >
+            <div class="box text-light">
+              <h4 class="fs-5">About Us</h4>
+              <ul class="links text-light list-unstyled lh-lg ms-3">
+                <li><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-6"
+            data-aos="fade-up"
+            data-aos-once="true"
+          >
+            <div class="box text-light text-start">
+              <h4>Contact Us</h4>
+              <p>
+                Get in touch with us via mail phone.We are waiting for your call
+                or message
+              </p>
+              <form action="">
+                <input class="w-100 p-2 rounded-pill border-0" type="text" />
+                <input
+                  class="send-btn mt-2 ps-3 pe-3 pt-1 pb-1 rounded-pill"
+                  type="submit"
+                  value="Send"
+                />
+              </form>
+              <div class="contact-btn btn rounded-pill mt-4 w-100">
+                graphberry@gmail.com
+              </div>
+              <ul class="icons mt-3 list-unstyled d-flex w-100 gap-4">
+                <li class="facebook">
+                  <a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="twitter-x">
+                  <a href="#">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+                </li>
+                <li class="youtube">
+                  <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                </li>
+                <li class="google-plus">
+                  <a href="#">
+                    <i class="fa-brands fa-google-plus-g"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end footer -->
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed(".heading-1", {
+        strings: [
+          "Design Comes To Those Who <span style='color: var(--yellow)'>Wait</span>",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
